@@ -1,6 +1,6 @@
 {
   "name": "@janodev/astro",
-  "version": "4.0.0",
+  "version": "0.0.1-pre0",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
