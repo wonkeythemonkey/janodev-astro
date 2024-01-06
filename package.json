@@ -1,6 +1,6 @@
 {
   "name": "@janodev/astro",
-  "version": "0.0.1-pre0",
+  "version": "0.0.1-pre1",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -10,7 +10,8 @@
     "astro": "astro",
     "format:check": "prettier --plugin-search-dir=. --check .",
     "format": "prettier --plugin-search-dir=. --write .",
-    "cz": "cz",
+    "commit": "cz",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "prepare": "husky install",
     "lint": "eslint ."
   },
@@ -38,6 +39,7 @@
     "@typescript-eslint/parser": "^6.16.0",
     "astro-eslint-parser": "^0.16.0",
     "commitizen": "^4.3.0",
+    "conventional-changelog-cli": "^4.1.0",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.56.0",
     "eslint-plugin-astro": "^0.31.0",
