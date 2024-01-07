@@ -1,7 +1,10 @@
 import type { CollectionEntry } from "astro:content";
+import getPostsWithExternalLink from "./getPostsWithExternalLink";
 
-const getSortedPosts = (posts: CollectionEntry<"blog">[]) => {
-  return posts
+const getSortedPosts = async (posts: CollectionEntry<"blog">[]) => {
+  const postsWithExternalLink = await getPostsWithExternalLink(posts);
+
+  return postsWithExternalLink
     .filter(({ data }) => !data.draft)
     .sort(
       (a, b) =>

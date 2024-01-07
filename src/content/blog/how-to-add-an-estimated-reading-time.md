@@ -218,7 +218,7 @@ Files that use `getSortedPosts` function are as follow
 All you have to do is like this
 
 ```ts
-const sortedPosts = getSortedPosts(posts); // old code ❌
+const sortedPosts = await getSortedPosts(posts); // old code ❌
 const sortedPosts = await getSortedPosts(posts); // new code ✅
 ```
 
