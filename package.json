@@ -1,6 +1,6 @@
 {
   "name": "@janodev/astro",
-  "version": "0.1.0-pre1.3",
+  "version": "0.1.0-pre1.0",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -14,7 +14,7 @@
     "changelog": "conventional-changelog -c .conventional-changelog/config.json -i CHANGELOG.md -s",
     "prepare": "husky install",
     "lint": "eslint .",
-    "version": "npm run changelog"
+    "version": "npm run changelog && git add CHANGELOG.md"
   },
   "dependencies": {
     "@astrojs/check": "^0.3.4",
