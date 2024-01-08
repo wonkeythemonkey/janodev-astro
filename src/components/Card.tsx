@@ -9,8 +9,14 @@ export interface Props {
 }
 
 export default function Card({ href, frontmatter, secHeading = true }: Props) {
-  const { title, pubDatetime, modDatetime, description, externalLink } =
-    frontmatter;
+  const {
+    title,
+    pubDatetime,
+    modDatetime,
+    description,
+    externalLink,
+    externalLinkSite,
+  } = frontmatter;
 
   const headerProps = {
     style: { viewTransitionName: slugifyStr(title) },
@@ -61,6 +67,11 @@ export default function Card({ href, frontmatter, secHeading = true }: Props) {
           <h3 {...headerProps}>{title}</h3>
         )}
         {externalLink ? externalLinkSVG : ""}
+        {externalLinkSite ? (
+          <span className="ml-2 text-sm">[{externalLinkSite}]</span>
+        ) : (
+          ""
+        )}
       </a>
       <Datetime pubDatetime={pubDatetime} modDatetime={modDatetime} />
       <p>{description}</p>
