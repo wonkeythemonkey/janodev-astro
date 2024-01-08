@@ -11,7 +11,7 @@
     "format:check": "prettier --plugin-search-dir=. --check .",
     "format": "prettier --plugin-search-dir=. --write .",
     "cz": "cz",
-    "changelog": "conventional-changelog -p conventional -i CHANGELOG.md -s",
+    "changelog": "conventional-changelog -c .conventional-changelog/config.js -i CHANGELOG.md -s",
     "prepare": "husky install",
     "lint": "eslint .",
     "version": "npm run changelog"
