@@ -1,8 +1,14 @@
 import { LOCALE } from "@config";
 
+export interface DateFormatOptions {
+  date?: Intl.DateTimeFormatOptions | false;
+  time?: Intl.DateTimeFormatOptions | false;
+}
+
 interface DatetimesProps {
   pubDatetime: string | Date;
   modDatetime: string | Date | undefined | null;
+  dateFormat?: DateFormatOptions;
 }
 
 interface Props extends DatetimesProps {
@@ -13,6 +19,7 @@ interface Props extends DatetimesProps {
 export default function Datetime({
   pubDatetime,
   modDatetime,
+  dateFormat,
   size = "sm",
   className,
 }: Props) {
@@ -39,32 +46,61 @@ export default function Datetime({
         <FormattedDatetime
           pubDatetime={pubDatetime}
           modDatetime={modDatetime}
+          dateFormat={dateFormat}
         />
       </span>
     </div>
   );
 }
 
-const FormattedDatetime = ({ pubDatetime, modDatetime }: DatetimesProps) => {
+const FormattedDatetime = ({
+  pubDatetime,
+  modDatetime,
+  dateFormat,
+}: DatetimesProps & {
+  dateFormat?: {
+    date?: Intl.DateTimeFormatOptions | false;
+    time?: Intl.DateTimeFormatOptions | false;
+  };
+}) => {
+  dateFormat = dateFormat ? dateFormat : {};
   const myDatetime = new Date(modDatetime ? modDatetime : pubDatetime);
 
-  const date = myDatetime.toLocaleDateString(LOCALE.langTag, {
+  const defaultDateOptions: Intl.DateTimeFormatOptions = {
     year: "numeric",
     month: "short",
     day: "numeric",
+  };
+
+  const defaultTimeOptions: Intl.DateTimeFormatOptions = {
+    hour: "2-digit",
+    minute: "2-digit",
+  };
+
+  const date = myDatetime.toLocaleDateString(LOCALE.langTag, {
+    ...defaultDateOptions,
+    ...dateFormat.date,
   });
 
   const time = myDatetime.toLocaleTimeString(LOCALE.langTag, {
-    hour: "2-digit",
-    minute: "2-digit",
+    ...defaultTimeOptions,
+    ...dateFormat.time,
   });
 
   return (
     <>
       <time dateTime={myDatetime.toISOString()}>{date}</time>
-      <span aria-hidden="true"> | </span>
-      <span className="sr-only">&nbsp;at&nbsp;</span>
-      <span className="text-nowrap">{time}</span>
+      {dateFormat.time === false ? "" : <span aria-hidden="true"> | </span>}
+      {dateFormat.time === false ? (
+        ""
+      ) : (
+        <span className="sr-only">&nbsp;at&nbsp;</span>
+      )}
+      {dateFormat.time === false ? (
+        ""
+      ) : (
+        <span className="text-nowrap">{time}</span>
+      )}
     </>
   );
 };

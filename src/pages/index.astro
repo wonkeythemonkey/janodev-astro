@@ -78,6 +78,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
                   href={`/posts/${slug}`}
                   frontmatter={data}
                   secHeading={false}
+                  dateFormat={{ time: false }}
                 />
               ))}
             </ul>
@@ -100,6 +101,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
                     href={`/posts/${slug}`}
                     frontmatter={data}
                     secHeading={false}
+                    dateFormat={{ time: false }}
                   />
                 )
             )
