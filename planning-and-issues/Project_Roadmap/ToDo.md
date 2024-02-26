@@ -1,8 +1,8 @@
-- [ ] Create OG image to replace `astropaper-og.jpg`
+- [x] Create OG image to replace `astropaper-og.jpg`
 - [x] Remove all Astropaper blog posts
 - [ ] Change "About" page content
-- [ ] Make sure my own blog posts work
-- [ ] Disable search
+- [x] Make sure my own blog posts work
+- [x] Disable search
 - [ ] Deploy to Netlify
 - [ ] Add link to Mastodon profile
 - [ ] Fix search and re-enable it
