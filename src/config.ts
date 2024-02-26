@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "Jesse Janowiak",
   desc: "Articles, tutorials, links, and assorted writing by Jesse Janowiak.",
   title: "Jano[Dev]",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "janodev-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 5,
 };

@@ -33,3 +33,7 @@ pnpm-debug.log*
 !.yarn/sdks
 !.yarn/versions
 .pnp.*
+
+# Ignore working files that should not be processed
+**.afphoto
+**.psd
