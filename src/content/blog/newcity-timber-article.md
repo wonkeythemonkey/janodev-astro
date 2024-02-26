@@ -6,7 +6,7 @@ title: "NewCity Article: Building Sane, Reusable WordPress Templates with Timber
 featured: false
 draft: false
 tags:
-  - external
+  - My-Articles-on-Other-Sites
 categories:
   - WordPress
   - NewCity Articles
