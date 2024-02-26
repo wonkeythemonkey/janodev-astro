@@ -3,10 +3,12 @@ author: Jesse Janowiak
 pubDatetime: 2017-07-14T00:00:11.000Z
 modDatetime:
 title: "NewCity Article: Building Sane, Reusable WordPress Templates with Timber and Twig"
+externalLink: "https://www.insidenewcity.com/building-sane-reusable-wordpress-templates-with-timber-and-twig/"
+externalLinkSite: "NewCity"
 featured: false
 draft: false
 tags:
-  - My-Articles-on-Other-Sites
+  - external
 categories:
   - WordPress
   - NewCity Articles

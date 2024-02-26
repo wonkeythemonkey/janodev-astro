@@ -132,4 +132,9 @@
   .focus-outline {
     @apply outline-2 outline-offset-1 outline-skin-fill focus-visible:no-underline focus-visible:outline-dashed;
   }
+
+  .notice {
+    padding: 1rem;
+    border: dashed 2px rgb(var(--color-text-base));
+  }
 }

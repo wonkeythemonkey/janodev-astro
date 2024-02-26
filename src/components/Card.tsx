@@ -63,7 +63,7 @@ export default function Card({
   );
 
   return (
-    <li className="my-6">
+    <li className="my-10">
       <a
         href={externalLink ? externalLink : href}
         className="group inline-flex items-center text-lg font-medium text-skin-accent"
@@ -88,7 +88,18 @@ export default function Card({
         modDatetime={modDatetime}
         dateFormat={dateFormat}
       />
-      <p>{description}</p>
+      <p className="mt-4">{description}</p>
+      {externalLink ? (
+        <p className="notice my-4">
+          <i>
+            <b>Notice:</b> This article is hosted on a different site, and I do
+            not have full rights to it. As such, it does not fall under the same
+            copyright or license as the content on Jano[Dev]
+          </i>
+        </p>
+      ) : (
+        ""
+      )}
     </li>
   );
 }
