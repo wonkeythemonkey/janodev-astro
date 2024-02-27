@@ -17,8 +17,8 @@ export async function getStaticPaths() {
 
   const tags = getUniqueTags(posts);
 
-  return tags.flatMap(async ({ tag, tagName }) => {
-    const tagPosts = await getPostsByTag(posts, tag);
+  return tags.flatMap(({ tag, tagName }) => {
+    const tagPosts = getPostsByTag(posts, tag);
     const totalPages = getPageNumbers(tagPosts.length);
 
     return totalPages.map(page => ({
