@@ -36,6 +36,9 @@ export default defineConfig({
     optimizeDeps: {
       exclude: ["@resvg/resvg-js"],
     },
+    esbuild: {
+      exclude: ["obsidian"],
+    },
   },
   scopedStyleStrategy: "where",
 });

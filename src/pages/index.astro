@@ -11,6 +11,7 @@ import getSortedPosts from "@utils/getSortedPosts";
 import { SOCIALS } from "@config";
 
 const posts = await getCollection("blog");
+const mediaPosts = await getCollection("mediaposts");
 
 const sortedPosts = await getSortedPosts(posts);
 const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
