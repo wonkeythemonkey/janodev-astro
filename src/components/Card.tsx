@@ -50,8 +50,6 @@ export default function Card({
             transform="matrix(0, 1, -1, 0, 32, 0.822)"
           ></rect>
           <rect
-            id="Rectangle_42"
-            data-name="Rectangle 42"
             width="32.3"
             height="3.97"
             rx="1.99"
