@@ -37,7 +37,7 @@ export default function Card({ href, frontmatter, secHeading = true }: Props) {
     <li className="my-10">
       <a
         href={href}
-        className="group inline-flex items-center text-lg font-medium text-skin-accent"
+        className="group inline-flex items-center font-mono text-lg font-medium text-skin-accent"
       >
         {secHeading ? (
           <h2 {...headerProps}>{displayTitle}</h2>
