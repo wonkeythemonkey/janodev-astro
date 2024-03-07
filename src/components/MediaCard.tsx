@@ -1,5 +1,5 @@
 import { slugifyStr } from "@utils/slugify";
-import Datetime, { type DateFormatOptions } from "./Datetime";
+import { type DateFormatOptions } from "./Datetime";
 import type { CollectionEntry } from "astro:content";
 import zeroPad from "@utils/zeroPad";
 
@@ -10,13 +10,8 @@ export interface Props {
   secHeading?: boolean;
 }
 
-export default function Card({
-  href,
-  frontmatter,
-  dateFormat,
-  secHeading = true,
-}: Props) {
-  const { title, pubDatetime, modDatetime, description, details } = frontmatter;
+export default function Card({ href, frontmatter, secHeading = true }: Props) {
+  const { title, description, details } = frontmatter;
 
   const headerProps = {
     style: { viewTransitionName: slugifyStr(title) },
