@@ -4,9 +4,11 @@ import Layout from "@layouts/Layout.astro";
 import Header from "@components/Header.astro";
 import Footer from "@components/Footer.astro";
 import LinkButton from "@components/LinkButton.astro";
+
+const canonical404URL = new URL('404.html', Astro.site).href;
 ---
 
-<Layout title={`404 Not Found | ${SITE.title}`}>
+<Layout title={`404 Not Found | ${SITE.title}`} canonicalURL={canonical404URL}>
   <Header />
 
   <main id="main-content">
