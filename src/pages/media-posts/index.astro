@@ -6,7 +6,7 @@ import getPagination from "@utils/getPagination";
 import type { CollectionEntry } from "astro:content";
 
 const posts = await getCollection("mediaposts");
-const sortedPosts = await getSortedPosts(posts);
+const sortedPosts = getSortedPosts(posts);
 
 const pagination = getPagination({
   posts: sortedPosts as CollectionEntry<"mediaposts">[],

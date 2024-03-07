@@ -23,7 +23,6 @@ const { currentPage, totalPages, paginatedPosts } = Astro.props;
     <ul>
       {
         paginatedPosts.map(({ data, slug }) => {
-          console.log(data, slug);
           return (
             <MediaCard
               href={`/media-posts/${slug}`}

@@ -1,19 +1,17 @@
 ---
 title: "Get Smart Season 1, Episode 5: Now you see him, now you don't"
+mediaType: tv-show
 description: "KAOS threatens to sell an invisibility ray to America's
   enemies"
+details:
+  series: Get Smart
+  season: 1
+  episode: 5
 pubDatetime: 2023-02-05T00:10:28.820Z
-preview: ""
 draft: true
 tags:
-  - entertainment
-  - tv
-  - get-smart
-categories:
-  - Entertainment
-layout: ""
-templateEngineOverride: ""
-lastmod: 2023-02-05T00:46:21.313Z
+  - tv-shows
+modDateTime: 2023-02-05T00:46:21.313Z
 author: Jesse Janowiak
 ---
 

@@ -1,21 +1,18 @@
 ---
 title: "Get Smart Season 1, Episode 7: KAOS in CONTROL"
-type: tv-show
+mediaType: tv-show
 description: "A KAOS agent with a weapon that reverts people's minds to
   an eight-year-old state threatens a summit of the world's top scientific
   geniuses."
+details:
+  series: Get Smart
+  season: 1
+  episode: 7
 pubDatetime: 2023-02-05T00:10:28.820Z
-preview: ""
 draft: true
 tags:
-  - entertainment
-  - tv
-  - get-smart
-categories:
-  - Entertainment
-layout: ""
-templateEngineOverride: ""
-lastmod: 2023-02-05T22:52:05.197Z
+  - tv-shows
+modDateTime: 2023-02-05T22:52:05.197Z
 author: Jesse Janowiak
 slug: smart-kaos-control
 ---

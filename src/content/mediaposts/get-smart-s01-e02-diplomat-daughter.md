@@ -1,10 +1,11 @@
 ---
-title: "Get Smart Season 1, Episode 2: Diplomat's Daughter"
+title: "Diplomat's Daughter"
 mediaType: tv-show
 description: >
   A 1960s comedy about protecting a blonde woman from Chinese spies
   predictably dissolves into a mess of casual racism and sexism
 details:
+  series: Get Smart
   season: 1
   episode: 2
   releaseDate: 1965-09-25
@@ -13,7 +14,7 @@ details:
     - Don Adams
     - Barbara Feldon
 pubDatetime: 2023-02-05T00:10:28.820Z
-draft: false
+draft: true
 modDateTime: 2023-02-05T22:59:47.333Z
 author: Jesse Janowiak
 ---
