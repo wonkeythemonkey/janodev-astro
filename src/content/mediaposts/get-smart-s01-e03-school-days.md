@@ -1,21 +1,18 @@
 ---
-title: "Get Smart Season 1, Episode 3: School Days"
+title: "School Days"
+mediaType: tv-show
 description: >
   Max goes undercover as a student at CONTROL's spy school
   to hunt down a KAOS agent that has infiltrated the program.
+details:
+  series: Get Smart
+  season: 1
+  episode: 3
 pubDatetime: 2023-02-05T00:10:28.820Z
-preview: ""
 draft: true
 tags:
-  - entertainment
-  - tv
-  - get-smart
-categories:
-  - Entertainment
-layout: ""
-templateEngineOverride: ""
-lastmod: 2023-02-06T15:26:45.845Z
-author: Jesse Janowiak
+  - tv-shows
+modDateTime: 2023-02-06T15:26:45.845Z
 ---
 
 KAOS has slipped one of its agents into CONTROL's spy school, where they will learn all of CONTROL's secret techniques. Max poses as a student, and 99 as an employee, in order to root out the imposter. They have narrowed the suspects down to three suspicious students, but identifying the actual villain is proving to be more difficult than they expected.

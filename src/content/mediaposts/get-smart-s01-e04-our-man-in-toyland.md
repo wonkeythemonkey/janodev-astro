@@ -1,20 +1,20 @@
 ---
-title: "Get Smart Season 1, Episode 4: Our Man in Toyland"
+title: "Our Man in Toyland"
+mediaType: tv-show
 description: KAOS is smuggling CONTROL's secrets to enemy agents using
   a department store as a front. Can Max and 99 derail the operation before
   they're found out?
+details:
+  series: Get Smart
+  season: 1
+  episode: 4
 pubDatetime: 2023-02-05T00:10:28.820Z
-preview: ""
 draft: true
 tags:
-  - entertainment
-  - tv
-  - get-smart
-categories:
-  - Entertainment
+  - tv-shows
 layout: ""
 templateEngineOverride: ""
-lastmod: 2023-02-05T01:01:59.724Z
+modDateTime: 2023-02-05T01:01:59.724Z
 author: Jesse Janowiak
 ---
 

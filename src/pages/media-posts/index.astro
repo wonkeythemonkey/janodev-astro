@@ -1,0 +1,18 @@
+---
+import { getCollection } from "astro:content";
+import MediaPosts from "@layouts/MediaPosts.astro";
+import getSortedPosts from "@utils/getSortedPosts";
+import getPagination from "@utils/getPagination";
+import type { CollectionEntry } from "astro:content";
+
+const posts = await getCollection("mediaposts");
+const sortedPosts = getSortedPosts(posts);
+
+const pagination = getPagination({
+  posts: sortedPosts as CollectionEntry<"mediaposts">[],
+  page: 1,
+  isIndex: true,
+});
+---
+
+<MediaPosts {...pagination} />
