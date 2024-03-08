@@ -1,22 +1,21 @@
 ---
 title: "Diplomat's Daughter"
-mediaType: tv-show
-description: >
-  A 1960s comedy about protecting a blonde woman from Chinese spies
-  predictably dissolves into a mess of casual racism and sexism
+type: "tv-show"
+description: "A 1960s comedy about protecting a blonde woman from Chinese spies predictably dissolves into a mess of casual racism and sexism"
 details:
-  series: Get Smart
+  series: "Get Smart"
   season: 1
   episode: 2
   releaseDate: 1965-09-25
-  network: NBC
+  network: "NBC"
   cast:
-    - Don Adams
-    - Barbara Feldon
+    - "Don Adams"
+    - "Barbara Feldon"
 pubDatetime: 2023-02-05T00:10:28.820Z
 draft: true
 modDateTime: 2023-02-05T22:59:47.333Z
-author: Jesse Janowiak
+author: "Jesse Janowiak"
+lastmod: "2024-03-08T00:55:00.604Z"
 ---
 
 I loved watching Get Smart when I was a kid. The show was a few decades before my time, but thanks to Nick at Night and a few taped-from-television VHS tapes, I fell in love with the 1960s spy pastiche mixed with a blend of surreal and vaudevillian comedy. That wasn't how I would have explained it at the time, of course. I probably would have said that it was "really funny and had the guy who did the voice of Inspector Gadget."

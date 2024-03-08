@@ -1,9 +1,8 @@
 ---
-title: "School Days"
-mediaType: tv-show
-description: >
-  Max goes undercover as a student at CONTROL's spy school
-  to hunt down a KAOS agent that has infiltrated the program.
+title: School Days
+type: tv-show
+description: |
+  Max goes undercover as a student at CONTROL's spy school to hunt down a KAOS agent that has infiltrated the program.
 details:
   series: Get Smart
   season: 1
@@ -13,6 +12,7 @@ draft: true
 tags:
   - tv-shows
 modDateTime: 2023-02-06T15:26:45.845Z
+lastmod: 2024-03-08T00:45:26.390Z
 ---
 
 KAOS has slipped one of its agents into CONTROL's spy school, where they will learn all of CONTROL's secret techniques. Max poses as a student, and 99 as an employee, in order to root out the imposter. They have narrowed the suspects down to three suspicious students, but identifying the actual villain is proving to be more difficult than they expected.
@@ -61,12 +61,12 @@ It also marks the first appearance of Fang, the lovable canine agent whose handl
 
 Max breaks out one of his most famous joke formulas for the first time in "School Days." If you've seen more than an episode or two of the show, you probably know it. It always follows the same pattern:
 
-> **Max:** [*Some extraordinary claim.*] Would you believe it?
+> **Max:** [_Some extraordinary claim._] Would you believe it?
 >
 > **Person:** I find that difficult to believe.
 >
-> **Max:** Would you believe [*slightly less extraordinary version of the claim.*]?
+> **Max:** Would you believe [_slightly less extraordinary version of the claim._]?
 >
 > **Person:** No.
 >
-> **Max:** How about [*unimpressive version of the claim*]?
+> **Max:** How about [_unimpressive version of the claim_]?

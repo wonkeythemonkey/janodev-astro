@@ -1,0 +1,257 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.framework.id": "astro",
+  "frontMatter.preview.host": "http://localhost:4321",
+  "frontMatter.content.publicFolder": {
+    "path": "src/assets",
+    "relative": true
+  },
+  "frontMatter.content.wysiwyg": true,
+  "frontMatter.global.modes": [
+    {
+      "id": "full",
+      "features": [
+        "panel.metadata",
+        "panel.seo",
+        "panel.recentlyModified",
+        "panel.actions",
+        "panel.contentType",
+        "panel.otherActions",
+        "panel.globalSettings",
+        "dashboard.data.view",
+        "dashboard.snippets.view",
+        "dashboard.snippets.manage",
+        "dashboard.taxonomy.view"
+      ]
+    }
+  ],
+  "frontMatter.content.pageFolders": [
+    {
+      "path": "[[workspace]]/src/content/blog",
+      "title": "Blog",
+      "previewPath": "posts"
+    },
+    {
+      "path": "[[workspace]]/src/content/mediaposts",
+      "title": "Media Posts",
+      "previewPath": "media-posts"
+    }
+  ],
+  "frontMatter.taxonomy.alignFilename": true,
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "previewPath": "'blog'",
+      "filePrefix": null,
+      "clearEmpty": true,
+      "fields": [
+        {
+          "title": "title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "slug",
+          "name": "slug",
+          "type": "slug"
+        },
+        {
+          "title": "description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "type",
+          "name": "type",
+          "type": "string"
+        },
+        {
+          "title": "draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "featured",
+          "name": "featured",
+          "type": "boolean"
+        },
+        {
+          "title": "pubDatetime",
+          "name": "pubDatetime",
+          "type": "datetime"
+        },
+        {
+          "title": "modDatetime",
+          "name": "modDatetime",
+          "type": "datetime"
+        },
+        {
+          "title": "tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "author",
+          "name": "author",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "tv-show",
+      "pageBundle": false,
+      "fields": [
+        {
+          "title": "title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "slug",
+          "name": "slug",
+          "type": "slug"
+        },
+        {
+          "title": "type",
+          "name": "type",
+          "type": "string"
+        },
+        {
+          "title": "description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "details",
+          "name": "details",
+          "type": "fields",
+          "fields": [
+            {
+              "title": "series",
+              "name": "series",
+              "type": "string"
+            },
+            {
+              "title": "season",
+              "name": "season",
+              "type": "number"
+            },
+            {
+              "title": "episode",
+              "name": "episode",
+              "type": "number"
+            },
+            {
+              "title": "releaseDate",
+              "name": "releaseDate",
+              "type": "datetime"
+            },
+            {
+              "title": "network",
+              "name": "network",
+              "type": "string"
+            },
+            {
+              "title": "cast",
+              "name": "cast",
+              "type": "choice",
+              "choices": [
+                "Don Adams",
+                "Barbara Feldon"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "pubDatetime",
+          "name": "pubDatetime",
+          "type": "datetime"
+        },
+        {
+          "title": "modDateTime",
+          "name": "modDateTime",
+          "type": "datetime"
+        },
+        {
+          "title": "tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "author",
+          "name": "author",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "external-link",
+      "pageBundle": false,
+      "fields": [
+        {
+          "title": "title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "slug",
+          "name": "slug",
+          "type": "slug"
+        },
+        {
+          "title": "externalLink",
+          "name": "externalLink",
+          "type": "string"
+        },
+        {
+          "title": "externalLinkSite",
+          "name": "externalLinkSite",
+          "type": "string"
+        },
+        {
+          "title": "description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "pubDatetime",
+          "name": "pubDatetime",
+          "type": "datetime"
+        },
+        {
+          "title": "modDatetime",
+          "name": "modDatetime",
+          "type": "datetime"
+        },
+        {
+          "title": "featured",
+          "name": "featured",
+          "type": "boolean"
+        },
+        {
+          "title": "draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "author",
+          "name": "author",
+          "type": "string"
+        }
+      ]
+    }
+  ],
+  "frontMatter.content.autoUpdateDate": false,
+  "frontMatter.content.fmHighlight": false
+}

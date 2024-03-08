@@ -33,7 +33,7 @@ const mediaposts = defineCollection({
       pubDatetime: z.date(),
       modDatetime: z.date().optional().nullable(),
       title: z.string(),
-      mediaType: z.enum(["tv-show", "movie"]),
+      type: z.enum(["tv-show", "movie"]),
       featured: z.boolean().optional(),
       draft: z.boolean().optional(),
       tags: z.array(z.string()).default(["others"]),
