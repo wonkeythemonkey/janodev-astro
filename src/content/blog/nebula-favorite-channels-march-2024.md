@@ -1,6 +1,6 @@
 ---
 title: Nebula — My favorite channels as of March 2024
-description: The video streaming site Nebula has a lot of great channels. Here are some of my favorites.
+description: The video streaming site Nebula has so many channels, it's hard to know where to begin. Here are some of my favorites.
 pubDatetime: 2024-03-19T00:58:37.893Z
 modDatetime: 2024-03-19T00:58:39.107Z
 tags:
