@@ -1,12 +1,12 @@
 ---
 title: A History of Web Dev Holy Wars
-description: "All this has happened before, and all of it will happen again."
+description: All this has happened before, and all of it will happen again.
 draft: false
 type: default
 tags:
     - webdev
     - opinion
-pubDatetime: 2024-06-20T16:33:15.924Z
+pubDatetime: 2024-06-22T23:16:01.407Z
 ---
 
 If you are a web developer, there are two phrases that you should never use: "You should always…" and "You should never…"[^1]
