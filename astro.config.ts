@@ -5,33 +5,43 @@ import remarkToc from "remark-toc";
 import remarkCollapse from "remark-collapse";
 import sitemap from "@astrojs/sitemap";
 import { SITE } from "./src/config";
-import robotsTxt from "astro-robots-txt";
 
-import mdx from "@astrojs/mdx";
+import robotsTxt from "astro-robots-txt";
 
 // https://astro.build/config
 export default defineConfig({
   site: SITE.website,
   output: "static",
-  integrations: [tailwind({
-    applyBaseStyles: false
-  }), react(), sitemap(), robotsTxt(), mdx()],
+  integrations: [
+    tailwind({
+      applyBaseStyles: false,
+    }),
+    react(),
+    sitemap(),
+    robotsTxt(),
+  ],
   markdown: {
-    remarkPlugins: [remarkToc, [remarkCollapse, {
-      test: "Table of contents"
-    }]],
+    remarkPlugins: [
+      remarkToc,
+      [
+        remarkCollapse,
+        {
+          test: "Table of contents",
+        },
+      ],
+    ],
     shikiConfig: {
       theme: "one-dark-pro",
-      wrap: true
-    }
+      wrap: true,
+    },
   },
   vite: {
     optimizeDeps: {
-      exclude: ["@resvg/resvg-js"]
+      exclude: ["@resvg/resvg-js"],
     },
     esbuild: {
-      exclude: ["obsidian"]
-    }
+      exclude: ["obsidian"],
+    },
   },
-  scopedStyleStrategy: "where"
+  scopedStyleStrategy: "where",
 });
