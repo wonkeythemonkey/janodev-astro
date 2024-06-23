@@ -27,11 +27,11 @@ const {
 
 const { Content } = await post.render();
 
-const ogImageUrl = typeof ogImage === "string" ? ogImage : ogImage?.src;
-const ogUrl = new URL(
-  ogImageUrl ?? `/media-posts/${slugifyStr(title)}.png`,
-  Astro.url.origin
-).href;
+// const ogImageUrl = typeof ogImage === "string" ? ogImage : ogImage?.src;
+// const ogUrl = new URL(
+//   ogImageUrl ?? `/media-posts/${slugifyStr(title)}.png`,
+//   Astro.url.origin
+// ).href;
 
 const layoutProps = {
   type,
@@ -42,7 +42,7 @@ const layoutProps = {
   modDatetime,
   canonicalURL,
   details,
-  ogImage: ogUrl,
+  // ogImage: ogUrl,
   scrollSmooth: true,
 };
 
