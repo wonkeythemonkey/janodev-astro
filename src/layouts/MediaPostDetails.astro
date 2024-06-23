@@ -14,6 +14,7 @@ export interface Props {
 const { post } = Astro.props;
 
 const {
+  type,
   title,
   author,
   description,
@@ -26,13 +27,14 @@ const {
 
 const { Content } = await post.render();
 
-const ogImageUrl = typeof ogImage === "string" ? ogImage : ogImage?.src;
-const ogUrl = new URL(
-  ogImageUrl ?? `/media-posts/${slugifyStr(title)}.png`,
-  Astro.url.origin
-).href;
+// const ogImageUrl = typeof ogImage === "string" ? ogImage : ogImage?.src;
+// const ogUrl = new URL(
+//   ogImageUrl ?? `/media-posts/${slugifyStr(title)}.png`,
+//   Astro.url.origin
+// ).href;
 
 const layoutProps = {
+  type,
   title,
   author,
   description,
@@ -40,7 +42,7 @@ const layoutProps = {
   modDatetime,
   canonicalURL,
   details,
-  ogImage: ogUrl,
+  // ogImage: ogUrl,
   scrollSmooth: true,
 };
 
@@ -61,14 +63,14 @@ const layoutProps = {
     </button>
   </div>
   <main id="main-content">
-    <h1 transition:name={slugifyStr(title)} class="post-title"><MediaHeader title={title} series={details?.series} season={details?.season} episode={details?.episode} /></h1>
+    <h1 transition:name={slugifyStr(title)} class="post-title"><MediaHeader type={type} title={title} series={details?.series} season={details?.season} episode={details?.episode} /></h1>
     <Datetime
       pubDatetime={pubDatetime}
       modDatetime={modDatetime}
       size="lg"
       className="my-2"
     />
-    <article id="article" role="article" class="prose mx-auto mt-8 max-w-3xl">
+    <article id="article" role="article" class="prose mx-auto mt-8 mb-10 max-w-3xl">
       <Content />
     </article>
 

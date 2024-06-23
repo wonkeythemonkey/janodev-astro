@@ -191,6 +191,104 @@
       ]
     },
     {
+      "name": "movie",
+      "pageBundle": false,
+      "fields": [
+        {
+          "title": "title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "slug",
+          "name": "slug",
+          "type": "slug"
+        },
+        {
+          "title": "type",
+          "name": "type",
+          "type": "string"
+        },
+        {
+          "title": "description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "details",
+          "name": "details",
+          "type": "fields",
+          "fields": [
+            {
+              "title": "series",
+              "name": "series",
+              "type": "string"
+            },
+            {
+              "title": "episode",
+              "name": "episode",
+              "type": "number"
+            },
+            {
+              "title": "releaseDate",
+              "name": "releaseDate",
+              "type": "datetime"
+            },
+            {
+              "title": "Studio",
+              "name": "studio",
+              "type": "string"
+            },
+            {
+              "title": "Director",
+              "name": "director",
+              "type": "string"
+            },
+            {
+              "title": "Cast",
+              "name": "cast",
+              "type": "list"
+            },
+            {
+              "title": "Spoiler Level",
+              "name": "spoiler",
+              "type": "choice",
+              "choices": [
+                "0",
+                "1",
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "pubDatetime",
+          "name": "pubDatetime",
+          "type": "datetime"
+        },
+        {
+          "title": "modDateTime",
+          "name": "modDateTime",
+          "type": "datetime"
+        },
+        {
+          "title": "tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "author",
+          "name": "author",
+          "type": "string"
+        }
+      ]
+    },
+    {
       "name": "external-link",
       "pageBundle": false,
       "fields": [
