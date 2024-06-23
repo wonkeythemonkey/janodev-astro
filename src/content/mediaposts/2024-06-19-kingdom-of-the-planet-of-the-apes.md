@@ -1,5 +1,5 @@
 ---
-title: Kingdom of the Planet of the Apes
+title: "Review: Kingdom of the Planet of the Apes"
 slug: kingdom-of-the-planet-of-the-apes
 type: movie
 description: Seven years after the last Planet of the Apes movie, a new director begins a new story in its world with satisfying results.
@@ -17,8 +17,7 @@ details:
     - Peter Macon
     - William H. Macy
   spoiler: "1"
-pubDatetime: 2024-06-19T13:52:04.752Z
-modDateTime: 2024-06-19T13:52:04.752Z
+pubDatetime: 2024-06-23T14:22:23.565Z
 tags:
   - review
 author: Jesse Janowiak
