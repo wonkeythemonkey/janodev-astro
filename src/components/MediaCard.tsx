@@ -11,7 +11,7 @@ export interface Props {
 }
 
 export default function Card({ href, frontmatter, secHeading = true }: Props) {
-  const { title, description, details } = frontmatter;
+  const { title, type, description, details } = frontmatter;
 
   const headerProps = {
     style: { viewTransitionName: slugifyStr(title) },
@@ -19,19 +19,24 @@ export default function Card({ href, frontmatter, secHeading = true }: Props) {
       "text-lg font-medium decoration-dashed decoration-dashed underline-offset-4 group-focus-visible:no-underline group-focus-visible:underline-offset-0 group-hover:underline",
   };
 
-  let displayTitle = "";
-  if (details?.series) {
-    displayTitle = `${details.series} — `;
-  }
+  let displayTitle = `${title}`;
 
-  if (details?.season || details?.episode) {
-    let episodeDisplay = "";
-    episodeDisplay += details?.season ? `S${details.season}` : "";
-    episodeDisplay += details?.episode ? `E${zeroPad(details.episode, 2)}` : "";
-    displayTitle += `${episodeDisplay}: `;
+  if (type === 'tv-show') {
+    if (details?.series) {
+      displayTitle = `${details.series} — ${displayTitle}`;
+    }
+  
+    if (details?.season || details?.episode) {
+      let episodeDisplay = "";
+      episodeDisplay += details?.season ? `S${details.season}` : "";
+      episodeDisplay += details?.episode ? `E${zeroPad(details.episode, 2)}` : "";
+      displayTitle = `${episodeDisplay}: ${displayTitle}`;
+    }
+  } else {
+    if (details?.releaseDate) {
+      displayTitle = `${displayTitle} (${new Date(details.releaseDate).getFullYear()})`;
+    }
   }
-
-  displayTitle += `${title}`;
 
   return (
     <li className="my-10">

@@ -30,19 +30,22 @@ export const MediaHeader = ({
   series,
   season,
   episode,
+  type,
 }: {
   title: string;
   series?: string;
   season?: number;
   episode?: number;
+  type?: string;
 }) => {
+  const headerEpisode = <div className="post-superhead text-lg">
+  <SeriesName series={series} />
+  {" — "}
+  <EpisodeNumber season={season} episode={episode} />
+</div>;
   return (
     <div>
-      <div className="post-superhead text-lg">
-        <SeriesName series={series} />
-        {" — "}
-        <EpisodeNumber season={season} episode={episode} />
-      </div>
+      {type === "tv-show" ? headerEpisode : null}
       <div className="post-title">{title}</div>
     </div>
   );
