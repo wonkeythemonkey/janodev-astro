@@ -1,6 +1,7 @@
 {
   "extends": "astro/tsconfigs/strict",
-  "exclude": ["**/.obsidian/*"],
+  "include": [".astro/types.d.ts", "**/*"],
+  "exclude": ["dist", "**/.obsidian/*"],
   "compilerOptions": {
     "baseUrl": "src",
     "jsx": "react-jsx",

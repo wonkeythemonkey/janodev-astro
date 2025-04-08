@@ -8,18 +8,15 @@ import { SITE } from "./src/config";
 
 import robotsTxt from "astro-robots-txt";
 
+import expressiveCode from "astro-expressive-code";
+
 // https://astro.build/config
 export default defineConfig({
   site: SITE.website,
   output: "static",
-  integrations: [
-    tailwind({
-      applyBaseStyles: false,
-    }),
-    react(),
-    sitemap(),
-    robotsTxt(),
-  ],
+  integrations: [tailwind({
+    applyBaseStyles: false,
+  }), react(), sitemap(), robotsTxt(), expressiveCode()],
   markdown: {
     remarkPlugins: [
       remarkToc,
