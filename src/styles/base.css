@@ -145,7 +145,7 @@
   left: 0;
   padding: 0.25rem 1rem;
   background-color: inherit;
-  color: rgb( var(--color-card) );
+  color: inherit;
   opacity: 1;
   border-radius: 0.375rem 0.375rem 0 0;
 }
