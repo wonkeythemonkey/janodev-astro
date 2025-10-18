@@ -4,8 +4,8 @@ draft: false
 type: default
 pubDatetime: 2024-08-30T12:49:27.026Z
 tags:
-    - WordPress
-    - WebDev
+  - WordPress
+  - webdev
 description: Is Relevanssi failing to index your posts? A plugin conflict may be to blame.
 ---
 
@@ -56,4 +56,4 @@ I don't know _exactly_ why this fix worked, and there may be a better way to fix
 - Does Query Monitor have a hook of some kind that I could use to disable it specifically for Relevanssi indexing requests?
 - Are there certain types of information that are more computationally expensive for Query Monitor to collect than others? If so, can certain checks be disabled without deactivating the entire plugin?
 
-[^observer-effect]: In physics, this is called "the observer effect". You know you want to hit up the [Wikipedia article about the observer effect](https://en.wikipedia.org/wiki/Observer_effect_(physics)), you nerd.
+[^observer-effect]: In physics, this is called "the observer effect". You know you want to hit up the [Wikipedia article about the observer effect](<https://en.wikipedia.org/wiki/Observer_effect_(physics)>), you nerd.
