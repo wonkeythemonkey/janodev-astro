@@ -7,11 +7,11 @@ pubDatetime: 2025-10-20T02:37:06.269Z
 modDatetime: 2025-10-20T02:37:07.159Z
 ---
 
-Today was the second nationwide day of protest known as "No Kings." I did attend a large "Hands Off" rally in Washington, D.C., and I have attended a lot of smaller demonstrations in the town where I live, but I was unable to attend the first No Kings protest in June of 2025. Fortunately, I did manage to attend a local demonstration on October 18 even though I was traveling. The following are some observations that I wanted to document, mostly for my own reference, about things that seemed to work well and not so well during this protest as compared to others I've attended.
+Yesterdat was the second nationwide day of protest known as "No Kings." I did attend a large "Hands Off" rally in Washington, D.C., and I have attended a lot of smaller demonstrations in the town where I live, but I was unable to attend the first No Kings protest in June of 2025. Fortunately, I did manage to attend a local demonstration on October 18 even though I was traveling. The following are some observations that I wanted to document, mostly for my own reference, about things that seemed to work well and not so well during this protest as compared to others I've attended.
 
 ## Marches are better than gatherings
 
-The previous protests and demonstrations I have attended were single-location events where people gathered with signs and flags while speakers took turns speaking. The event I attended today was a march that took us from a park, across a major walking bridge, and through the city's downtown. Standing around with a sign can quickly feel pointless, leading to people heading home early. A march not only gives particpants a sense of purpose and (literal) direction, it makes continuing more practical than leaving. If the march ends where it began, you might as well keep going until you get back to your car!
+The previous protests and demonstrations I have attended were single-location events where people gathered with signs and flags while speakers took turns speaking. The event I attended yesterday was a march that took us from a park, across a major walking bridge, and through the city's downtown. Standing around with a sign can quickly feel pointless, leading to people heading home early. A march not only gives particpants a sense of purpose and (literal) direction, it makes continuing more practical than leaving. If the march ends where it began, you might as well keep going until you get back to your car!
 
 ## We are past the time for certain kinds of signs
 
