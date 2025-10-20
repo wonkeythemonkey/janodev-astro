@@ -7,7 +7,7 @@ pubDatetime: 2025-10-20T02:37:06.269Z
 modDatetime: 2025-10-20T02:37:07.159Z
 ---
 
-Yesterdat was the second nationwide day of protest known as "No Kings." I did attend a large "Hands Off" rally in Washington, D.C., and I have attended a lot of smaller demonstrations in the town where I live, but I was unable to attend the first No Kings protest in June of 2025. Fortunately, I did manage to attend a local demonstration on October 18 even though I was traveling. The following are some observations that I wanted to document, mostly for my own reference, about things that seemed to work well and not so well during this protest as compared to others I've attended.
+Yesterday was the second nationwide day of protest known as "No Kings." I did attend a large "Hands Off" rally in Washington, D.C., and I have attended a lot of smaller demonstrations in the town where I live, but I was unable to attend the first No Kings protest in June of 2025. Fortunately, I did manage to attend a local demonstration on October 18 even though I was traveling. The following are some observations that I wanted to document, mostly for my own reference, about things that seemed to work well and not so well during this protest as compared to others I've attended.
 
 ## Marches are better than gatherings
 
